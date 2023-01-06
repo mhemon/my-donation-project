@@ -1,3 +1,12 @@
+
+*{
+    margin: 1px solid;
+    padding: 0;
+}
+
+.hr{
+    text-align: center;
+}
 .banner{
     display: flex;
     justify-content: center;
@@ -17,11 +26,13 @@
 }
 
 .banner .description{
+    margin-top: 15px;
     color: white;
     font-weight: 900;
 }
 
 .btn-primary{
+    margin-top: 15px;
     padding: 10px;
     width: 150px;
     background-color: red;
@@ -36,11 +47,14 @@ section{
 }
 
 section .title{
+    margin-top: 50px;
     font-weight: 900;
     text-align: center;
 }
 
 section .description{
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: gray;
     text-align: center;
 }
@@ -49,6 +63,7 @@ section .btn-taka{
     width: 60px;
     height: 60px;
     border: none;
+    margin: 5px;
     border-radius: 5px;
     font-weight: bold;
     color: gray;
@@ -56,5 +71,85 @@ section .btn-taka{
 
 
 section .other-text{
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: gray;
+}
+
+/* section donate plan */
+
+.plan-container{
+    display: flex;
+    justify-content: center;
+}
+
+section .plan{
+    width: 300px;
+    
+    margin: 10px;
+    padding: 50px 30px;
+    text-align: start;
+    border-radius: 2px;
+}
+
+.plan .title, .plan .description{
+    text-align: start;
+}
+/* depend container */
+.depend-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    margin-top: 100px;
+}
+
+.depend-right img{
+    width: 380px;
+}
+
+ .depend-left{
+    margin-right: 50px;
+}
+
+/* subs email */
+
+.subs-email-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.subs-email{
+    width: 500px;
+    background-color: lightgoldenrodyellow;
+    padding: 50px;
+}
+
+form .email{
+    padding: 10px;
+    border: none;
+}
+
+form .submit{
+    padding: 10px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+/* footer area */
+footer{
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+footer h2{
+    margin-top: 50px;
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 20px;
 }
