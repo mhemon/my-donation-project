@@ -1,0 +1,13 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../images/donation1.jpg');
+}
+
+.btn{
+    padding: 10px;
+    width: 150px;
+    
+}
